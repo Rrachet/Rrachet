@@ -1,22 +1,22 @@
 # Amarnath Mishra
 
-**Software Engineer · Full-Stack · Backend · AI/ML**
+**Software Engineer · Backend · Full-Stack · AI/ML**
 
-Computer Science Engineer focused on building **production-oriented software systems** across backend services, full-stack applications, AI/ML workflows, data-driven products, and Android.
+Computer Science Engineer building software with a focus on **backend systems, full-stack applications, AI-enabled products, data structures, and maintainable engineering practices**.
 
-I care about the engineering behind the interface: **API design, authentication, data modelling, architecture, testing, deployment, security, and maintainability.**
+I care about the engineering behind the interface: **API design, authentication, data modelling, testing, performance, deployment, security, and clear architecture.**
 
 **Target roles:** Software Engineer · Backend Engineer · Full-Stack Engineer · AI/ML Engineer · Graduate Software Engineer
 
 ---
 
-## Engineering Focus
+## Engineering Stack
 
 | Area | Technologies |
 |---|---|
-| Languages | Python · Java · TypeScript · JavaScript · SQL · Kotlin |
+| Languages | Java · Python · JavaScript · TypeScript · SQL · Kotlin |
 | Backend | Node.js · Express · REST APIs · Prisma · JWT · OAuth · Passport |
-| Frontend | React · Vite · React Router · Tailwind CSS |
+| Frontend | React · Vite · React Router · Next.js · Tailwind CSS |
 | Data | PostgreSQL · SQLite · Room · Pandas · NumPy |
 | AI / ML | Scikit-learn · TensorFlow · Gemini API · LangChain |
 | Android | Kotlin · Jetpack Compose · Coroutines · Retrofit |
@@ -24,124 +24,105 @@ I care about the engineering behind the interface: **API design, authentication,
 
 ---
 
-## Featured Systems
+## Selected Projects
 
-### 01 — [LaunchPad](https://github.com/Rrachet/LaunchPad)
-**Full-Stack Project & Collaboration Platform**
+### [LaunchPad](https://github.com/Rrachet/LaunchPad)
+**Full-stack project & collaboration platform**
 
-A full-stack application built around real authentication, relational data, project workflows, and a separated frontend/backend architecture.
+A multi-layer application demonstrating authentication, relational data modelling, REST APIs, OAuth, email verification, and separated frontend/backend deployment.
 
-**Engineering evidence**
-- Layered Express backend with routes, controllers, middleware, services and utilities
-- PostgreSQL relational data model through Prisma
-- Password hashing and verification workflows
-- Google OAuth integration through Passport
-- Email OTP verification workflow
-- React frontend with REST API integration and data visualisation
-- Deployment-oriented frontend/backend configuration
+**Engineering evidence:** React, Node.js, Express, PostgreSQL, Prisma, Passport/Google OAuth, JWT/session infrastructure, OTP workflows.
 
-**Stack:** React · Node.js · Express · PostgreSQL · Prisma · OAuth · REST
+### [DSA Forge](https://github.com/Rrachet/DSA-Forge)
+**Java data structures, algorithms & systems laboratory**
 
----
+An engineering-first DSA repository covering classic algorithms plus systems-oriented structures such as LRU/LFU caches, rate limiting, bounded queues, consistent hashing, and task scheduling.
 
-### 02 — [Gun2Gun](https://github.com/Rrachet/Gun2Gun)
-**AI LiveOps & Game Design Workbench**
+**Engineering evidence:** complexity analysis, automated tests, benchmarks, Java 21, Maven, interview-pattern catalogue.
 
-A domain-specific AI application that turns game context into structured LiveOps concepts, GDDs, quests, and economy recommendations.
+### [AirCanvas](https://github.com/Rrachet/AirCanvas)
+**Real-time computer-vision interaction system**
 
-**Engineering evidence**
-- TypeScript + React frontend
-- Express API boundary around the model provider
-- Server-side Gemini 2.5 Flash integration
-- Task-specific prompt orchestration
-- Domain-specific AI workflows instead of generic chat
-- Error handling around model requests
+A camera-first interface that turns hand movement into drawing, shape, pointer, and laser interactions using browser vision plus an experimental Python vision service.
 
-**Stack:** TypeScript · React · Express · Gemini · Vite · Tailwind
+**Engineering evidence:** MediaPipe, browser canvas, FastAPI, WebSockets, temporal filtering, gesture reasoning, real-time interaction.
 
----
+### [AI Enhancement Tool](https://github.com/Rrachet/AI-enhancement-tool)
+**AI prompt engineering platform**
 
-### 03 — [TwoFold](https://github.com/Rrachet/TwoFold--App-for-Task-management)
-**Native Android Task Management Application**
+A Next.js application that analyses intent and constraints, applies model/task-specific guidance, calls an AI provider through an abstraction layer, and falls back to a deterministic engine when needed.
 
-A Kotlin/Android application demonstrating local persistence, networking, asynchronous application logic, and automated UI validation.
+**Engineering evidence:** TypeScript, Next.js, AI SDK/Gateway, validation, provider abstraction, quality scoring, CI.
 
-**Engineering evidence**
-- Jetpack Compose + Material 3
-- ViewModel/state-driven application architecture
-- Room local persistence
-- Retrofit + OkHttp networking
-- Kotlin Coroutines
-- Moshi serialization
-- Robolectric and Compose testing infrastructure
-- Roborazzi screenshot testing
+### [Gun2Gun](https://github.com/Rrachet/Gun2Gun)
+**AI LiveOps & game-design workbench**
 
-**Stack:** Kotlin · Compose · Room · Retrofit · Coroutines · JUnit
+A domain-specific AI application that converts game context into structured LiveOps concepts, quests, GDDs, and economy recommendations through a server-side model boundary.
+
+**Engineering evidence:** React, TypeScript, Express, Gemini, prompt orchestration, API error handling.
+
+### [TwoFold](https://github.com/Rrachet/TwoFold--App-for-Task-management)
+**Native Android task-management application**
+
+A Kotlin/Android application demonstrating local persistence, asynchronous networking, state-driven UI, and automated UI validation.
+
+**Engineering evidence:** Jetpack Compose, ViewModel, Room, Retrofit, Coroutines, Robolectric, Compose tests, Roborazzi.
 
 ---
 
-### 04 — Customer Churn Prediction
-**Machine Learning Classification Pipeline**
+## Engineering Evidence Map
 
-A Python/scikit-learn project for customer churn prediction using data preprocessing, model training, evaluation, and comparative classification modelling.
-
-**Stack:** Python · Pandas · NumPy · Scikit-learn
-
----
-
-## Engineering Evidence
-
-| Capability | Demonstrated through |
+| Capability | Where to inspect it |
 |---|---|
+| Data structures & algorithms | DSA Forge |
 | API design | LaunchPad · Gun2Gun |
-| Authentication | LaunchPad |
-| OAuth / third-party integration | LaunchPad |
+| Authentication & OAuth | LaunchPad |
 | Relational data modelling | LaunchPad |
-| ORM / data access | Prisma · Room |
-| AI integration | Gun2Gun |
-| Native application development | TwoFold |
-| Automated testing | TwoFold |
-| Deployment | LaunchPad · production web projects |
-| Data / ML | Customer Churn Prediction |
+| AI integration | AI Enhancement Tool · Gun2Gun |
+| Computer vision / real-time systems | AirCanvas |
+| Native Android | TwoFold |
+| Automated testing | DSA Forge · TwoFold |
+| CI/CD | AI Enhancement Tool · DSA Forge |
+| Deployment-oriented architecture | LaunchPad · AirCanvas |
 
 ---
 
 ## Engineering Principles
 
-- **Clear architecture over unnecessary complexity.**
-- **Business logic separated from transport and presentation layers.**
-- **Secrets kept outside source control.**
-- **Explicit data models for relational domains.**
-- **AI treated as a system component with an API boundary, not a UI gimmick.**
-- **Important behaviour tested rather than relying only on manual verification.**
-- **Technical decisions documented so another engineer can maintain the system.**
+- Prefer **clear architecture over unnecessary abstraction**.
+- Separate business logic from transport and presentation layers.
+- Keep secrets outside source control.
+- Make data models explicit and predictable.
+- Treat AI as a system component behind a defined API boundary.
+- Test important behaviour instead of relying only on manual verification.
+- Measure performance before claiming optimisation.
+- Document trade-offs so another engineer can maintain the system.
 
 ---
 
 ## Current Engineering Roadmap
 
-```text
-[x] Full-stack application development
-[x] REST API development
-[x] Relational database development
-[x] Authentication / OAuth integrations
-[x] AI API integration
-[x] Android application development
-[ ] Broader unit + integration test coverage
-[ ] GitHub Actions CI/CD across flagship projects
-[ ] OpenAPI / Swagger documentation
-[ ] Dockerized development environments
-[ ] Structured logging and production monitoring
-[ ] Deeper system design and distributed systems
-```
+- [x] Full-stack application development
+- [x] REST API development
+- [x] Relational database development
+- [x] Authentication / OAuth integrations
+- [x] AI API integration
+- [x] Android application development
+- [x] DSA and systems-oriented data structures
+- [x] Automated CI on selected projects
+- [ ] Broader unit + integration coverage across flagship projects
+- [ ] OpenAPI documentation for LaunchPad
+- [ ] Dockerized development environments
+- [ ] Structured logging and production monitoring
+- [ ] Deeper distributed-systems and system-design work
 
 Unchecked items are **active engineering goals**, not claimed production capabilities.
 
 ---
 
-## Software Engineering Priorities
+## Interview Preparation
 
-I am strengthening the CS fundamentals and engineering practices expected in software engineering interviews:
+I am strengthening the fundamentals expected in software engineering interviews:
 
 - Data Structures & Algorithms
 - Object-Oriented Design
@@ -156,15 +137,9 @@ I am strengthening the CS fundamentals and engineering practices expected in sof
 - System design
 - AI/ML evaluation and production integration
 
-I treat project work and CS fundamentals as complementary: projects demonstrate implementation ability; fundamentals support technical reasoning in interviews.
+**Project approach:** Problem → Requirements → Architecture → Implementation → Testing → Deployment → Measurement.
 
----
-
-## How I Approach Projects
-
-**Problem → Requirements → Architecture → Implementation → Testing → Deployment → Measurement**
-
-For each serious project, I want another engineer to be able to answer five questions quickly:
+For each serious project, the goal is that another engineer can quickly answer:
 
 1. What problem does this solve?
 2. How is the system structured?
@@ -174,34 +149,19 @@ For each serious project, I want another engineer to be able to answer five ques
 
 ---
 
-## Professional Experience
+## Experience & Education
 
-**Triumphs of Talent** — Digital / Marketing Technology Work
+**Triumphs of Talent** — Digital / Marketing Technology Work  
+Worked on digital products, event platforms, campaigns, and real-world organisational requirements alongside technical development.
 
-Worked on digital products, event platforms, campaigns, and real-world organizational requirements alongside technical development.
-
-**Woodrock Infotech** — Full-Stack Development Intern
-
+**Woodrock Infotech** — Full-Stack Development Intern  
 Worked on full-stack application development and implementation.
 
-**Arawinz Soft Solutions** — Full-Stack Development Intern
-
+**Arawinz Soft Solutions** — Full-Stack Development Intern  
 Worked on web application development and software implementation.
-
----
-
-## Education
 
 **B.Tech — Computer Science Engineering**  
 ICFAI Tech, Hyderabad
-
----
-
-## Current Direction
-
-Building toward **production-grade AI-enabled software systems** that combine conventional software engineering with data and machine intelligence.
-
-The goal is simple: build software that is **maintainable, testable, secure, deployable, and explainable in a technical interview.**
 
 ---
 
@@ -211,7 +171,5 @@ The goal is simple: build software that is **maintainable, testable, secure, dep
 **GitHub:** [@Rrachet](https://github.com/Rrachet)
 
 **Open to:** Software Engineering · Backend Engineering · Full-Stack Development · AI/ML Engineering · Graduate/Fresher Software Roles
-
----
 
 > **Build systems. Understand the trade-offs. Ship the result.**
