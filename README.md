@@ -1,175 +1,148 @@
 # Amarnath Mishra
 
-**Software Engineer · Backend · Full-Stack · AI/ML**
+### Product Analyst · Product Builder · Full-Stack Developer
 
-Computer Science Engineer building software with a focus on **backend systems, full-stack applications, AI-enabled products, data structures, and maintainable engineering practices**.
+I build and improve digital products from **problem discovery to shipped product**.
 
-I care about the engineering behind the interface: **API design, authentication, data modelling, testing, performance, deployment, security, and clear architecture.**
+My background started in **full-stack development**, where I worked hands-on with frontend, backend, APIs, databases, and deployment. I then moved into **product analysis and product ownership**, working across the end-to-end **Product Development Life Cycle (PDLC)** — understanding requirements, shaping solutions, collaborating with engineering/design, validating outcomes, and helping take products to market.
 
-**Target roles:** Software Engineer · Backend Engineer · Full-Stack Engineer · AI/ML Engineer · Graduate Software Engineer
+That combination is what I bring to teams: **I can understand the product problem, speak engineering, and help turn both into something users can actually use.**
 
----
-
-## Engineering Stack
-
-| Area | Technologies |
-|---|---|
-| Languages | Java · Python · JavaScript · TypeScript · SQL · Kotlin |
-| Backend | Node.js · Express · REST APIs · Prisma · JWT · OAuth · Passport |
-| Frontend | React · Vite · React Router · Next.js · Tailwind CSS |
-| Data | PostgreSQL · SQLite · Room · Pandas · NumPy |
-| AI / ML | Scikit-learn · TensorFlow · Gemini API · LangChain |
-| Android | Kotlin · Jetpack Compose · Coroutines · Retrofit |
-| Engineering | Git · GitHub · Postman · Vercel · Netlify · Render |
+[![Portfolio](https://img.shields.io/badge/Portfolio-thrii.io-black?style=flat-square)](https://www.thrii.io/)
+[![GitHub](https://img.shields.io/badge/GitHub-Rrachet-black?style=flat-square&logo=github)](https://github.com/Rrachet)
 
 ---
 
-## Selected Projects
+## 🚀 Flagship — Thrii
+
+### [ThriiLocal / Thrii.io](https://github.com/Rrachet/ThriiLocal)
+
+**Recruitment platform built for India's MSMEs** · [Live product → thrii.io](https://www.thrii.io/)
+
+Thrii is my biggest product initiative and the clearest example of how I combine **product thinking + technical execution**.
+
+The platform is designed to help Indian MSMEs hire faster through structured hiring workflows, relevant candidate matching, and recruiter-led validation. Its product proposition centers on helping employers get **3 relevant, vetted candidate profiles within 72 hours**, subject to role requirements and candidate availability.
+
+**My product journey around Thrii includes:**
+
+- Product discovery and requirement shaping
+- End-to-end **PDLC ownership and coordination**
+- Translating business needs into product requirements and execution priorities
+- Working closely with engineering while bringing hands-on full-stack development experience
+- Iterating on workflows, positioning, and the user journey
+- Taking the product beyond development into **go-to-market and product listings**
+- Listing and positioning the product on **Product Hunt and G2**
+
+> **Build the product. Understand the user. Ship the outcome.**
+
+[🌐 Visit Thrii.io](https://www.thrii.io/) · [💻 View repository](https://github.com/Rrachet/ThriiLocal)
+
+---
+
+## 🧭 What I Do
+
+| Product | Engineering | Go-to-Market |
+|---|---|---|
+| Discovery & requirements | Full-stack development | Product positioning |
+| User / business workflows | REST APIs & backend | Product Hunt listing |
+| PDLC ownership | React / Next.js | G2 listing |
+| Feature prioritisation | PostgreSQL / SQL | Launch support |
+| Cross-functional collaboration | AI integrations | Product storytelling |
+| Product validation | Testing & deployment | Market-facing execution |
+
+---
+
+## 🛠️ Technical Toolkit
+
+**Languages:** Java · Python · JavaScript · TypeScript · SQL · Kotlin  
+**Frontend:** React · Next.js · Vite · Tailwind CSS  
+**Backend:** Node.js · Express · REST APIs · Prisma · JWT · OAuth · Passport  
+**Data:** PostgreSQL · SQLite · Room · Pandas · NumPy  
+**AI / ML:** Scikit-learn · TensorFlow · Gemini API · LangChain  
+**Mobile:** Kotlin · Jetpack Compose · Coroutines · Retrofit  
+**Tools / Delivery:** Git · GitHub · Postman · Vercel · Netlify · Render
+
+---
+
+## ⭐ Selected Projects
+
+### [ThriiLocal](https://github.com/Rrachet/ThriiLocal)
+**Product-led recruitment platform**  
+My flagship product work: recruitment workflow, positioning, PDLC, engineering collaboration, and go-to-market execution around [thrii.io](https://www.thrii.io/).
 
 ### [LaunchPad](https://github.com/Rrachet/LaunchPad)
-**Full-stack project & collaboration platform**
+**Full-stack project & collaboration platform**  
+React + Vite frontend, Node.js + Express backend, PostgreSQL + Prisma, authentication, Google OAuth, email OTP, and independently deployable services.
 
-A multi-layer application demonstrating authentication, relational data modelling, REST APIs, OAuth, email verification, and separated frontend/backend deployment.
-
-**Engineering evidence:** React, Node.js, Express, PostgreSQL, Prisma, Passport/Google OAuth, JWT/session infrastructure, OTP workflows.
-
-### [DSA Forge](https://github.com/Rrachet/DSA-Forge)
-**Java data structures, algorithms & systems laboratory**
-
-An engineering-first DSA repository covering classic algorithms plus systems-oriented structures such as LRU/LFU caches, rate limiting, bounded queues, consistent hashing, and task scheduling.
-
-**Engineering evidence:** complexity analysis, automated tests, benchmarks, Java 21, Maven, interview-pattern catalogue.
-
-### [AirCanvas](https://github.com/Rrachet/AirCanvas)
-**Real-time computer-vision interaction system**
-
-A camera-first interface that turns hand movement into drawing, shape, pointer, and laser interactions using browser vision plus an experimental Python vision service.
-
-**Engineering evidence:** MediaPipe, browser canvas, FastAPI, WebSockets, temporal filtering, gesture reasoning, real-time interaction.
+### [apiatlas](https://github.com/Rrachet/apiatlas)
+**Searchable public API discovery platform**  
+A structured catalog covering **102 API records across 32 categories**, with metadata, validation, automated health checks, and a Next.js discovery interface.
 
 ### [AI Enhancement Tool](https://github.com/Rrachet/AI-enhancement-tool)
-**AI prompt engineering platform**
+**AI prompt engineering platform**  
+Next.js application focused on intent analysis, task-specific guidance, provider abstraction, validation, quality scoring, and AI-assisted workflows.
 
-A Next.js application that analyses intent and constraints, applies model/task-specific guidance, calls an AI provider through an abstraction layer, and falls back to a deterministic engine when needed.
+### [AirCanvas](https://github.com/Rrachet/AirCanvas)
+**Real-time computer-vision interaction system**  
+Camera-based drawing and gesture interaction using browser vision, MediaPipe, canvas interactions, FastAPI, WebSockets, and temporal filtering.
 
-**Engineering evidence:** TypeScript, Next.js, AI SDK/Gateway, validation, provider abstraction, quality scoring, CI.
-
-### [Gun2Gun](https://github.com/Rrachet/Gun2Gun)
-**AI LiveOps & game-design workbench**
-
-A domain-specific AI application that converts game context into structured LiveOps concepts, quests, GDDs, and economy recommendations through a server-side model boundary.
-
-**Engineering evidence:** React, TypeScript, Express, Gemini, prompt orchestration, API error handling.
-
-### [TwoFold](https://github.com/Rrachet/TwoFold--App-for-Task-management)
-**Native Android task-management application**
-
-A Kotlin/Android application demonstrating local persistence, asynchronous networking, state-driven UI, and automated UI validation.
-
-**Engineering evidence:** Jetpack Compose, ViewModel, Room, Retrofit, Coroutines, Robolectric, Compose tests, Roborazzi.
+### [DSA Forge](https://github.com/Rrachet/DSA-Forge)
+**Java DSA & systems laboratory**  
+Data structures and algorithms plus systems-oriented implementations such as LRU/LFU caches, rate limiting, bounded queues, consistent hashing, and task scheduling.
 
 ---
 
-## Engineering Evidence Map
+## 📌 Product + Engineering Journey
 
-| Capability | Where to inspect it |
-|---|---|
-| Data structures & algorithms | DSA Forge |
-| API design | LaunchPad · Gun2Gun |
-| Authentication & OAuth | LaunchPad |
-| Relational data modelling | LaunchPad |
-| AI integration | AI Enhancement Tool · Gun2Gun |
-| Computer vision / real-time systems | AirCanvas |
-| Native Android | TwoFold |
-| Automated testing | DSA Forge · TwoFold |
-| CI/CD | AI Enhancement Tool · DSA Forge |
-| Deployment-oriented architecture | LaunchPad · AirCanvas |
+**Product Analyst / Product-focused role**  
+Working across the end-to-end **PDLC**, from requirements and problem definition through execution, validation, positioning, and launch activities. I collaborate with technical teams and use my development background to bridge product requirements with implementation realities.
+
+**Full-Stack Development**  
+Started my career building software hands-on across frontend and backend systems, APIs, databases, authentication, integrations, and deployment.
+
+**Education**  
+B.Tech — Computer Science Engineering, ICFAI Tech, Hyderabad
 
 ---
 
-## Engineering Principles
+## 🔍 How I Think About Products
 
-- Prefer **clear architecture over unnecessary abstraction**.
-- Separate business logic from transport and presentation layers.
-- Keep secrets outside source control.
-- Make data models explicit and predictable.
-- Treat AI as a system component behind a defined API boundary.
-- Test important behaviour instead of relying only on manual verification.
-- Measure performance before claiming optimisation.
-- Document trade-offs so another engineer can maintain the system.
+```text
+Problem
+  ↓
+Discovery & Requirements
+  ↓
+Product Definition
+  ↓
+Design + Engineering Collaboration
+  ↓
+Build & Validate
+  ↓
+Launch
+  ↓
+Measure & Iterate
+```
 
----
-
-## Current Engineering Roadmap
-
-- [x] Full-stack application development
-- [x] REST API development
-- [x] Relational database development
-- [x] Authentication / OAuth integrations
-- [x] AI API integration
-- [x] Android application development
-- [x] DSA and systems-oriented data structures
-- [x] Automated CI on selected projects
-- [ ] Broader unit + integration coverage across flagship projects
-- [ ] OpenAPI documentation for LaunchPad
-- [ ] Dockerized development environments
-- [ ] Structured logging and production monitoring
-- [ ] Deeper distributed-systems and system-design work
-
-Unchecked items are **active engineering goals**, not claimed production capabilities.
+I like working where **product decisions and technical decisions meet** — especially when the job is to turn an ambiguous business problem into something concrete, testable, and shippable.
 
 ---
 
-## Interview Preparation
+## 📈 Currently Building Toward
 
-I am strengthening the fundamentals expected in software engineering interviews:
-
-- Data Structures & Algorithms
-- Object-Oriented Design
-- Database Systems
-- Operating Systems
-- Computer Networks
-- SQL
-- REST API design
-- Backend architecture
-- Automated testing
-- CI/CD
-- System design
-- AI/ML evaluation and production integration
-
-**Project approach:** Problem → Requirements → Architecture → Implementation → Testing → Deployment → Measurement.
-
-For each serious project, the goal is that another engineer can quickly answer:
-
-1. What problem does this solve?
-2. How is the system structured?
-3. Why were these technologies chosen?
-4. How do I run and test it?
-5. What would I improve next?
+- Stronger product analytics and decision-making
+- Product strategy and experimentation
+- AI-native product workflows
+- Scalable full-stack systems
+- Better product documentation and discovery
+- More measurable go-to-market execution
 
 ---
 
-## Experience & Education
+## 🤝 Let's Build
 
-**Triumphs of Talent** — Digital / Marketing Technology Work  
-Worked on digital products, event platforms, campaigns, and real-world organisational requirements alongside technical development.
+I’m interested in roles where I can contribute across **product analysis, product management, product operations, software engineering, full-stack development, and AI-enabled products**.
 
-**Woodrock Infotech** — Full-Stack Development Intern  
-Worked on full-stack application development and implementation.
+**GitHub:** [@Rrachet](https://github.com/Rrachet)  
+**Flagship product:** [thrii.io](https://www.thrii.io/)
 
-**Arawinz Soft Solutions** — Full-Stack Development Intern  
-Worked on web application development and software implementation.
-
-**B.Tech — Computer Science Engineering**  
-ICFAI Tech, Hyderabad
-
----
-
-## Contact
-
-**Email:** amarnathmishra5200@gmail.com  
-**GitHub:** [@Rrachet](https://github.com/Rrachet)
-
-**Open to:** Software Engineering · Backend Engineering · Full-Stack Development · AI/ML Engineering · Graduate/Fresher Software Roles
-
-> **Build systems. Understand the trade-offs. Ship the result.**
+> **Product sense × Engineering depth × Execution**
