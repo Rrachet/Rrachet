@@ -1,130 +1,107 @@
 # Amarnath Mishra
 
-### Software Engineer · Application Support · Full-Stack · Cloud
+### Software Engineer · Application Support · Application Operations · Cloud
 
-I build, operate, troubleshoot, and improve software products.
+I build, operate, troubleshoot, and improve software applications.
 
-My work sits at the intersection of **software engineering and application operations**: building full-stack applications, working with APIs and databases, deploying services, investigating failures, documenting fixes, and turning technical problems into reliable user-facing solutions.
+My portfolio is deliberately centered on the full application lifecycle: **build the application → monitor it → investigate failures → support users → resolve or escalate incidents → document the outcome**.
 
-I am especially interested in **Software Engineering, Application Support, Technical Support, Production Support, Cloud Support, and Application Operations** roles where strong troubleshooting and engineering fundamentals matter.
+I am targeting entry-level opportunities in **Software Engineering, Application Support, Application Operations, Production Support, Technical Support, and Cloud Support**.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-thrii.io-black?style=flat-square)](https://www.thrii.io/) [![GitHub](https://img.shields.io/badge/GitHub-Rrachet-black?style=flat-square&logo=github)](https://github.com/Rrachet)
 
 ---
 
-## ⭐ Flagship — ThriiLocal
+## ⭐ Flagship Application — ThriiLocal
 
 ### [ThriiLocal](https://github.com/Rrachet/ThriiLocal)
 
-**Production-style recreation of the Thrii.io product experience**
+**Build — production-style web application**
 
-ThriiLocal is my flagship application project. It demonstrates how I approach a real product from implementation through local operation, validation, troubleshooting, and documentation.
+My flagship application project. The repository demonstrates frontend implementation, product workflows, local operation, production builds, validation, troubleshooting and technical documentation.
 
-**Engineering signals:**
-- Responsive production-style web application
-- Vite + Vanilla JavaScript
-- Semantic HTML and responsive CSS
-- Product workflows and interactive UI states
-- Local development and production build workflow
-- Clear operational documentation
-
-[🌐 Visit Thrii.io](https://www.thrii.io/) · [💻 Repository](https://github.com/Rrachet/ThriiLocal)
+**Signals:** Vite · JavaScript · responsive UI · application workflows · build/deployment workflow · documentation
 
 ---
 
-## 🛠️ My Engineering Focus
+## 🧩 The Portfolio Story
 
-| Build | Operate | Support |
+| Capability | Project | What it demonstrates |
 |---|---|---|
-| Full-stack applications | Application health | Incident triage |
-| REST APIs & integrations | Logs & diagnostics | Troubleshooting |
-| PostgreSQL / SQL | Deployment & environments | Ticket workflows |
-| Authentication | Health checks | Escalation & case notes |
-| React / Next.js / Vite | CI/CD | Technical documentation |
-| AI-enabled workflows | Cloud platforms | User-focused resolution |
+| **BUILD** | [ThriiLocal](https://github.com/Rrachet/ThriiLocal) | Application implementation, configuration, build and validation |
+| **SUPPORT** | [SupportHub](https://github.com/Rrachet/SupportHub) | Ticketing, incident triage, troubleshooting, escalation and case notes |
+| **OPERATE** | [APIAtlas](https://github.com/Rrachet/apiatlas) | Health checks, dependency monitoring, validation and reliability signals |
+| **ENGINEER** | [LaunchPad](https://github.com/Rrachet/LaunchPad) | REST APIs, authentication, PostgreSQL, layered backend architecture |
+| **FUNDAMENTALS** | [DSA Forge](https://github.com/Rrachet/DSA-Forge) | Java, algorithms, caching, queues, rate limiting and systems thinking |
+
+### The operating model
+
+```text
+BUILD
+  ↓
+DEPLOY
+  ↓
+MONITOR
+  ↓
+DETECT
+  ↓
+TRIAGE
+  ↓
+TROUBLESHOOT
+  ↓
+RESOLVE / ESCALATE
+  ↓
+DOCUMENT
+  ↓
+IMPROVE
+```
+
+This is intentional: IBM describes application management around deployment, monitoring, maintenance and support, and its application-monitoring guidance emphasizes availability, response time, incident severity, MTTD and MTTR. citeturn0search0turn0search1turn0search2
 
 ---
 
-## 🚀 Selected Projects
-
-### [ThriiLocal](https://github.com/Rrachet/ThriiLocal)
-**Build — production-style application**  
-My flagship product/application work around Thrii.io, with a focus on usable workflows, responsive implementation, local operation, and production-ready build practices.
-
-### [SupportHub](https://github.com/Rrachet/SupportHub)
-**Support — IT service desk & incident management**  
-A support-oriented project focused on ticket workflows, issue triage, troubleshooting, escalation, resolution tracking, and technical case documentation.
-
-### [APIAtlas](https://github.com/Rrachet/apiatlas)
-**Integrate — API discovery & reliability**  
-A searchable public API directory with structured records, validation, duplicate detection, automated health checks, and reliability signals. The project treats API discovery as a **data-quality and reliability problem**.
-
-### [LaunchPad](https://github.com/Rrachet/LaunchPad)
-**Full-stack application**  
-React + Vite frontend, Node.js + Express backend, PostgreSQL + Prisma, authentication, Google OAuth, email OTP, and independently deployable services.
-
-### [DSA Forge](https://github.com/Rrachet/DSA-Forge)
-**Systems & engineering fundamentals**  
-Java implementations covering data structures and systems-oriented components including caches, rate limiting, bounded queues, consistent hashing, and task scheduling.
-
-### [AirCanvas](https://github.com/Rrachet/AirCanvas)
-**Real-time computer vision**  
-Camera-based drawing and gesture interaction using browser vision, MediaPipe, canvas interactions, FastAPI, WebSockets, and temporal filtering.
-
----
-
-## 🔧 Technical Toolkit
+## 🛠️ Technical Toolkit
 
 **Languages:** Java · Python · JavaScript · TypeScript · SQL · Kotlin  
 **Frontend:** React · Next.js · Vite · Tailwind CSS  
 **Backend:** Node.js · Express · REST APIs · Prisma · JWT · OAuth  
 **Data:** PostgreSQL · SQLite · Room · Pandas · NumPy  
-**AI / ML:** Scikit-learn · TensorFlow · Gemini API · LangChain  
 **Cloud / Delivery:** Azure · Vercel · Netlify · Render · Git · GitHub · Postman · CI/CD  
 **Operations:** Application monitoring · Health checks · Log analysis · Incident triage · Troubleshooting · Technical documentation
 
 ---
 
-## 🧭 How I Approach an Application
+## 🔬 Additional Engineering Projects
 
-```text
-Build
-  ↓
-Deploy
-  ↓
-Monitor
-  ↓
-Detect
-  ↓
-Triage
-  ↓
-Troubleshoot
-  ↓
-Resolve / Escalate
-  ↓
-Document
-  ↓
-Improve
-```
+### [AirCanvas](https://github.com/Rrachet/AirCanvas)
+Real-time computer vision, FastAPI, WebSockets, temporal filtering and browser interaction. Demonstrates experimentation with real-time systems.
 
-I want my repositories to show more than screenshots and features. They should show that I understand what happens **after software is built**: how it is monitored, how failures are investigated, how users are supported, and how fixes are documented.
+### [AI Enhancement Tool](https://github.com/Rrachet/AI-enhancement-tool)
+Next.js AI application with provider abstraction, validation, deterministic fallback and quality scoring. Demonstrates API integration and resilient application design.
+
+### [Loggin](https://github.com/Rrachet/Loggin)
+Full-stack attendance application using Supabase Auth, PostgreSQL/RLS, role-based access, geofencing and server-side validation. Demonstrates application security and configuration concerns.
+
+These are supporting projects; the five projects above are the primary portfolio story.
 
 ---
 
-## 📌 What I'm Building Toward
+## 🧭 Engineering Approach
 
-- Software engineering fundamentals
-- Application and production support
-- Technical troubleshooting and incident response
-- Cloud and deployment practices
-- API reliability and integrations
-- Clear technical communication and documentation
-- AI-enabled applications where they solve real problems
+I care about what happens **after software is written**:
+
+- Is the application healthy?
+- Can a failure be detected quickly?
+- Can the issue be isolated and triaged?
+- Is there a safe first-level remediation?
+- When should it be escalated?
+- Is the resolution documented clearly?
+- Can the same incident be prevented next time?
 
 ---
 
-## 🤝 Let's Build Reliable Software
+## 🎯 Target Roles
 
-I’m interested in entry-level opportunities across **Software Engineering, Application Support, Technical Support, Production Support, Cloud Support, and Application Operations**.
+**Application Support · Application Operations · Production Support · Technical Support · Software Engineering · Cloud Support**
 
 > **Build it. Operate it. Troubleshoot it. Improve it.**
