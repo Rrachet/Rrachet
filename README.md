@@ -8,7 +8,7 @@ Currently, I am a **Product Analyst at Thrii**, where I contribute to product th
 
 I am building toward **Product Manager / Technical Product Manager** roles, with an engineering background that lets me move comfortably from **problem definition → product strategy → technical execution → measurement**.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-thrii.io-111111?style=flat-square)](https://www.thrii.io/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Amarnath%20Mishra-111111?style=flat-square&logo=linkedin)](https://www.linkedin.com/) [![GitHub](https://img.shields.io/badge/GitHub-Rrachet-111111?style=flat-square&logo=github)](https://github.com/Rrachet)
+[![Portfolio](https://img.shields.io/badge/Portfolio-thrii.io-111111?style=flat-square)](https://www.thrii.io/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Amarnath%20Mishra-111111?style=flat-square&logo=linkedin)](https://in.linkedin.com/in/amarnath-mishra) [![GitHub](https://img.shields.io/badge/GitHub-Rrachet-111111?style=flat-square&logo=github)](https://github.com/Rrachet)
 
 ---
 
