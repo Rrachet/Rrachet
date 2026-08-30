@@ -1,107 +1,149 @@
 # Amarnath Mishra
 
-### Software Engineer · Application Support · Application Operations · Cloud
+### Product Analyst @ Thrii · Technical Product Builder · Full-Stack Engineering
 
-I build, operate, troubleshoot, and improve software applications.
+I work at the intersection of **product, data, users, and engineering**.
 
-My portfolio is deliberately centered on the full application lifecycle: **build the application → monitor it → investigate failures → support users → resolve or escalate incidents → document the outcome**.
+Currently, I am a **Product Analyst at Thrii**, where I contribute to product thinking and execution across the product lifecycle — from understanding user and business problems to shaping workflows, validating product experiences, and supporting go-to-market work.
 
-I am targeting entry-level opportunities in **Software Engineering, Application Support, Application Operations, Production Support, Technical Support, and Cloud Support**.
+I am building toward **Product Manager / Technical Product Manager** roles, with an engineering background that lets me move comfortably from **problem definition → product strategy → technical execution → measurement**.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-thrii.io-black?style=flat-square)](https://www.thrii.io/) [![GitHub](https://img.shields.io/badge/GitHub-Rrachet-black?style=flat-square&logo=github)](https://github.com/Rrachet)
+[![Portfolio](https://img.shields.io/badge/Portfolio-thrii.io-111111?style=flat-square)](https://www.thrii.io/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Amarnath%20Mishra-111111?style=flat-square&logo=linkedin)](https://www.linkedin.com/) [![GitHub](https://img.shields.io/badge/GitHub-Rrachet-111111?style=flat-square&logo=github)](https://github.com/Rrachet)
 
 ---
 
-## ⭐ Flagship Application — ThriiLocal
+## What I bring to product
+
+| Product capability | Evidence in this GitHub |
+|---|---|
+| **Problem discovery** | Product workflows, user journeys, product teardowns and feature framing |
+| **Product analytics** | Metrics thinking, structured data, validation signals and decision-oriented analysis |
+| **Product execution** | Working applications, APIs, workflows, technical architecture and iterative delivery |
+| **Technical depth** | React, Next.js, Node.js, REST APIs, PostgreSQL, Supabase, Vercel and cloud tooling |
+| **Prioritization** | Roadmaps, MVP scope, trade-offs and explicit next-step backlogs |
+| **Experimentation** | Hypotheses, success metrics, validation and iteration |
+| **GTM thinking** | Product listing and positioning work across G2, Product Hunt and Microsoft Azure ecosystem surfaces |
+| **Customer empathy** | Support workflows, troubleshooting flows and user-facing product states |
+
+---
+
+## ⭐ Flagship — ThriiLocal
 
 ### [ThriiLocal](https://github.com/Rrachet/ThriiLocal)
 
-**Build — production-style web application**
+**Product + engineering case study for Thrii.io**
 
-My flagship application project. The repository demonstrates frontend implementation, product workflows, local operation, production builds, validation, troubleshooting and technical documentation.
+ThriiLocal is the centerpiece of my portfolio because it shows how I think about a product as a system rather than as a collection of screens.
 
-**Signals:** Vite · JavaScript · responsive UI · application workflows · build/deployment workflow · documentation
+**Problem → users → workflow → product surface → technical constraints → validation → iteration**
+
+The project documents the public-facing product experience around structured hiring workflows, candidate matching and recruiter-oriented product flows while deliberately separating public implementation from Thrii's private systems.
+
+**My product lens:**
+- Understand the user/job-to-be-done
+- Identify the workflow friction
+- Define the smallest useful product surface
+- Translate requirements into technical implementation
+- Validate the experience
+- Capture what should change next
 
 ---
 
-## 🧩 The Portfolio Story
+## 🧭 Selected Product Work
 
-| Capability | Project | What it demonstrates |
-|---|---|---|
-| **BUILD** | [ThriiLocal](https://github.com/Rrachet/ThriiLocal) | Application implementation, configuration, build and validation |
-| **SUPPORT** | [SupportHub](https://github.com/Rrachet/SupportHub) | Ticketing, incident triage, troubleshooting, escalation and case notes |
-| **OPERATE** | [APIAtlas](https://github.com/Rrachet/apiatlas) | Health checks, dependency monitoring, validation and reliability signals |
-| **ENGINEER** | [LaunchPad](https://github.com/Rrachet/LaunchPad) | REST APIs, authentication, PostgreSQL, layered backend architecture |
-| **FUNDAMENTALS** | [DSA Forge](https://github.com/Rrachet/DSA-Forge) | Java, algorithms, caching, queues, rate limiting and systems thinking |
+### [APIAtlas](https://github.com/Rrachet/apiatlas) — API discovery product
 
-### The operating model
+A product built around a real developer problem: **finding an API is easy; knowing whether it is usable, trustworthy and maintained is harder.**
+
+Product signals include structured catalog design, search/filtering, validation, health monitoring, quality signals and a roadmap for scoring, community review and usage analytics.
+
+### [LaunchPad](https://github.com/Rrachet/LaunchPad) — Full-stack product platform
+
+A technical product case study showing how a product requirement becomes a working system: **user flow → frontend → REST API → business logic → relational data**.
+
+The repository is useful evidence of technical product judgment because architecture, authentication, integrations, configuration and trade-offs are documented alongside implementation.
+
+### [SupportHub](https://github.com/Rrachet/SupportHub) — Customer/problem workflow
+
+A service workflow product built around issue intake, categorisation, prioritisation, investigation, escalation, resolution and documentation.
+
+This demonstrates the customer-operations side of product thinking: understanding where users get blocked and designing workflows that make resolution measurable and repeatable.
+
+### [AI Enhancement Tool](https://github.com/Rrachet/AI-enhancement-tool) — AI product experimentation
+
+An AI application exploring provider abstraction, validation, fallback behaviour and quality scoring — with emphasis on making AI output useful and measurable rather than treating model output as the product by itself.
+
+---
+
+## 🧠 How I think about products
 
 ```text
-BUILD
-  ↓
-DEPLOY
-  ↓
-MONITOR
-  ↓
-DETECT
-  ↓
-TRIAGE
-  ↓
-TROUBLESHOOT
-  ↓
-RESOLVE / ESCALATE
-  ↓
-DOCUMENT
-  ↓
-IMPROVE
+USER / BUSINESS PROBLEM
+        ↓
+DISCOVERY + CONTEXT
+        ↓
+PROBLEM DEFINITION
+        ↓
+SUCCESS METRICS
+        ↓
+OPTIONS + TRADE-OFFS
+        ↓
+PRIORITIZE MVP
+        ↓
+BUILD WITH ENGINEERING
+        ↓
+SHIP + OBSERVE
+        ↓
+LEARN FROM DATA / USERS
+        ↓
+ITERATE
 ```
 
-This is intentional: IBM describes application management around deployment, monitoring, maintenance and support, and its application-monitoring guidance emphasizes availability, response time, incident severity, MTTD and MTTR. citeturn0search0turn0search1turn0search2
+For every substantial project, I try to make four things visible:
+
+**Why this problem?**  
+**Why this solution?**  
+**How do we know it worked?**  
+**What would we do next?**
 
 ---
 
-## 🛠️ Technical Toolkit
+## 🛠️ Product + Technical Toolkit
 
-**Languages:** Java · Python · JavaScript · TypeScript · SQL · Kotlin  
-**Frontend:** React · Next.js · Vite · Tailwind CSS  
-**Backend:** Node.js · Express · REST APIs · Prisma · JWT · OAuth  
-**Data:** PostgreSQL · SQLite · Room · Pandas · NumPy  
-**Cloud / Delivery:** Azure · Vercel · Netlify · Render · Git · GitHub · Postman · CI/CD  
-**Operations:** Application monitoring · Health checks · Log analysis · Incident triage · Troubleshooting · Technical documentation
+**Product:** Product discovery · PRDs · user journeys · requirements · prioritization · roadmaps · MVP definition · experimentation · KPI/metric thinking · competitive analysis · GTM
 
----
+**Analytics:** SQL · Python · Pandas · NumPy · data modelling · funnel analysis · product metrics
 
-## 🔬 Additional Engineering Projects
+**Design / Collaboration:** Figma · Jira-style workflows · technical diagrams · structured product documentation
 
-### [AirCanvas](https://github.com/Rrachet/AirCanvas)
-Real-time computer vision, FastAPI, WebSockets, temporal filtering and browser interaction. Demonstrates experimentation with real-time systems.
+**Engineering:** JavaScript · TypeScript · Python · Java · React · Next.js · Vite · Node.js · Express · REST APIs
 
-### [AI Enhancement Tool](https://github.com/Rrachet/AI-enhancement-tool)
-Next.js AI application with provider abstraction, validation, deterministic fallback and quality scoring. Demonstrates API integration and resilient application design.
-
-### [Loggin](https://github.com/Rrachet/Loggin)
-Full-stack attendance application using Supabase Auth, PostgreSQL/RLS, role-based access, geofencing and server-side validation. Demonstrates application security and configuration concerns.
-
-These are supporting projects; the five projects above are the primary portfolio story.
+**Data / Cloud:** PostgreSQL · Supabase · Prisma · Azure · Vercel · Netlify · Render · GitHub · CI/CD
 
 ---
 
-## 🧭 Engineering Approach
+## 📌 Portfolio map
 
-I care about what happens **after software is written**:
-
-- Is the application healthy?
-- Can a failure be detected quickly?
-- Can the issue be isolated and triaged?
-- Is there a safe first-level remediation?
-- When should it be escalated?
-- Is the resolution documented clearly?
-- Can the same incident be prevented next time?
+| Repository | Product signal | Technical signal |
+|---|---|---|
+| **ThriiLocal** | Product thinking, workflows, UX, validation | Frontend + product implementation |
+| **APIAtlas** | Developer problem, trust/reliability, roadmap | Next.js + validation + health checks |
+| **LaunchPad** | Requirements → system design | React + REST + PostgreSQL |
+| **SupportHub** | Customer operations + service workflow | Workflow/state modelling |
+| **AI Enhancement Tool** | AI feature evaluation + quality | Next.js + AI integrations |
+| **Loggin** | Access, roles and real-world workflows | Supabase + PostgreSQL + RLS |
+| **AirCanvas** | Interaction problem + experimentation | Computer vision + FastAPI + WebSockets |
 
 ---
 
-## 🎯 Target Roles
+## 🚀 Current direction
 
-**Application Support · Application Operations · Production Support · Technical Support · Software Engineering · Cloud Support**
+I am intentionally moving from **"I can build software"** toward **"I can identify what should be built, explain why, work with engineers to build it, and measure whether it created value."**
 
-> **Build it. Operate it. Troubleshoot it. Improve it.**
+My GitHub is therefore organized as a **product portfolio with technical proof**, not a collection of unrelated coding projects.
+
+### Target roles
+
+**Product Manager · Technical Product Manager · Product Analyst · Associate Product Manager · AI Product Manager**
+
+> **Find the problem. Define the outcome. Build the right thing. Measure the result.**
