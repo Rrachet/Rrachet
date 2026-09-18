@@ -142,6 +142,54 @@ There is **one conversation source of truth**. The voice layer does not create c
 
 ---
 
+## 📚 All repositories
+
+AIBOT is the flagship. The rest of my public repositories are listed below so this profile represents the breadth of my technical work rather than a single project.
+
+### ⭐ Flagship
+
+| Repository | Focus |
+|---|---|
+| **[AIBOT](https://github.com/Rrachet/AIBOT)** | AI lead conversations, voice, follow-ups, WhatsApp workflows, analytics, Supabase/RLS |
+
+### 🧠 AI, Product & Full-Stack
+
+| Repository | Focus |
+|---|---|
+| **[APIAtlas](https://github.com/Rrachet/apiatlas)** | API discovery, validation, reliability and developer tooling |
+| **[AI Enhancement Tool](https://github.com/Rrachet/AI-enhancement-tool)** | AI application and enhancement workflows |
+| **[LaunchPad](https://github.com/Rrachet/LaunchPad)** | Full-stack application architecture |
+| **[TwoFold](https://github.com/Rrachet/TwoFold--App-for-Task-management)** | Task management application |
+| **[SupportHub](https://github.com/Rrachet/SupportHub)** | Customer support and service workflows |
+| **[Loggin](https://github.com/Rrachet/Loggin)** | Authentication, roles and access workflows |
+| **[AirCanvas](https://github.com/Rrachet/AirCanvas)** | Computer vision and real-time interaction |
+| **[DSA-Forge](https://github.com/Rrachet/DSA-Forge)** | Data structures and algorithms practice |
+
+### 🌐 Web, Events & Client Projects
+
+| Repository | Focus |
+|---|---|
+| **[FrogStudio](https://github.com/Rrachet/FrogStudio)** | Branding / marketing agency website |
+| **[Heroes of Hyderabad](https://github.com/Rrachet/heroofhyderabad)** | Event website and nomination experience |
+| **[India Inclusive Summit](https://github.com/Rrachet/indiainclusivesummit)** | Event website |
+| **[VisualWebsite](https://github.com/Rrachet/VisualWebsite)** | Visual web project |
+| **[demo_web](https://github.com/Rrachet/demo_web)** | Web application / experimentation |
+| **[PWD](https://github.com/Rrachet/PWD)** | Public project workspace |
+| **[AppleProject](https://github.com/Rrachet/AppleProject)** | Web / frontend project |
+| **[NudgedNation](https://github.com/Rrachet/NudgedNation)** | Web product project |
+| **[Gun2Gun](https://github.com/Rrachet/Gun2Gun)** | Web application project |
+| **[ThriiLocal](https://github.com/Rrachet/ThriiLocal)** | Thrii product / hiring workflow project |
+
+### 🏗️ Platform Architecture
+
+| Repository | Focus |
+|---|---|
+| **[LaunchPad-Frontend](https://github.com/Rrachet/LaunchPad-Frontend)** 🔒 | Private frontend codebase |
+| **[LaunchPad-Backend](https://github.com/Rrachet/LaunchPad-Backend)** 🔒 | Private backend codebase |
+| **[Woodrock](https://github.com/Rrachet/Woodrock)** 🔒 | Private project |
+
+> GitHub's profile page already exposes the full **Repositories** tab. The list above is intentionally kept in the profile README so a recruiter can understand the portfolio without hunting through the repository tab. GitHub also recommends using a profile README plus up to six pinned repositories to showcase your strongest work. citeturn0search1turn0search2
+
 ## 🧭 How I build
 
 ```text
