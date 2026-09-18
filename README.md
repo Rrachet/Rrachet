@@ -1,86 +1,153 @@
 # Amarnath Mishra
 
-### Product Analyst @ Thrii · Technical Product Builder · Full-Stack Engineering
+### Product Builder · Product Analyst · Full-Stack Engineer
 
-I work at the intersection of **product, data, users, and engineering**.
+I build products at the intersection of **users, business problems, product thinking, and engineering**.
 
-Currently, I am a **Product Analyst at Thrii**, where I contribute to product thinking and execution across the product lifecycle — from understanding user and business problems to shaping workflows, validating product experiences, and supporting go-to-market work.
+My current focus is **AI-powered product development** — taking a problem from discovery and workflow design through technical execution, validation, and iteration.
 
-I am building toward **Product Manager / Technical Product Manager** roles, with an engineering background that lets me move comfortably from **problem definition → product strategy → technical execution → measurement**.
+**Currently building:** **AIBOT** — an AI-powered lead conversation platform.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-thrii.io-111111?style=flat-square)](https://www.thrii.io/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Amarnath%20Mishra-111111?style=flat-square&logo=linkedin)](https://in.linkedin.com/in/amarnath-mishra) [![GitHub](https://img.shields.io/badge/GitHub-Rrachet-111111?style=flat-square&logo=github)](https://github.com/Rrachet)
-
----
-
-## What I bring to product
-
-| Product capability | Evidence in this GitHub |
-|---|---|
-| **Problem discovery** | Product workflows, user journeys, product teardowns and feature framing |
-| **Product analytics** | Metrics thinking, structured data, validation signals and decision-oriented analysis |
-| **Product execution** | Working applications, APIs, workflows, technical architecture and iterative delivery |
-| **Technical depth** | React, Next.js, Node.js, REST APIs, PostgreSQL, Supabase, Vercel and cloud tooling |
-| **Prioritization** | Roadmaps, MVP scope, trade-offs and explicit next-step backlogs |
-| **Experimentation** | Hypotheses, success metrics, validation and iteration |
-| **GTM thinking** | Product listing and positioning work across G2, Product Hunt and Microsoft Azure ecosystem surfaces |
-| **Customer empathy** | Support workflows, troubleshooting flows and user-facing product states |
+[![AIBOT](https://img.shields.io/badge/Building-AIBOT-FF6A00?style=flat-square)](https://github.com/Rrachet/AIBOT)
+[![Live Product](https://img.shields.io/badge/Live-AIBOT-151515?style=flat-square)](https://aibot-amar-proj.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Amarnath%20Mishra-151515?style=flat-square&logo=linkedin)](https://in.linkedin.com/in/amarnath-mishra)
+[![GitHub](https://img.shields.io/badge/GitHub-Rrachet-151515?style=flat-square&logo=github)](https://github.com/Rrachet)
 
 ---
 
-## ⭐ Flagship — ThriiLocal
+## 🚀 AIBOT — Current Flagship
 
-### [ThriiLocal](https://github.com/Rrachet/ThriiLocal)
+### [AIBOT](https://github.com/Rrachet/AIBOT)
 
-**Product + engineering case study for Thrii.io**
+**AI-powered lead calling, conversation intelligence, follow-ups and sales workflow platform.**
 
-ThriiLocal is the centerpiece of my portfolio because it shows how I think about a product as a system rather than as a collection of screens.
+AIBOT is my main product and engineering project.
 
-**Problem → users → workflow → product surface → technical constraints → validation → iteration**
+```text
+LEAD → AGENT → CAMPAIGN → CONVERSATION
+                         ↓
+                    OUTCOME
+                         ↓
+              FOLLOW-UP → WHATSAPP
+                         ↓
+                    ANALYTICS
+```
 
-The project documents the public-facing product experience around structured hiring workflows, candidate matching and recruiter-oriented product flows while deliberately separating public implementation from Thrii's private systems.
+### What I'm building
 
-**My product lens:**
-- Understand the user/job-to-be-done
-- Identify the workflow friction
-- Define the smallest useful product surface
-- Translate requirements into technical implementation
-- Validate the experience
-- Capture what should change next
+- Lead management with CSV / Excel import
+- Configurable AI agents
+- Campaign-based conversations
+- Conversation outcomes and summaries
+- Automated follow-up workflows
+- WhatsApp workflow preparation
+- Analytics around conversation performance
+- Multi-tenant workspaces with PostgreSQL + RLS
+- **Zemo** — a contextual product copilot
+- Demo voice previews in English, Hindi and Hinglish
+- Provider-agnostic architecture for future telephony, messaging and AI integrations
 
----
+### Engineering approach
 
-## 🧭 Selected Product Work
-
-### [APIAtlas](https://github.com/Rrachet/apiatlas) — API discovery product
-
-A product built around a real developer problem: **finding an API is easy; knowing whether it is usable, trustworthy and maintained is harder.**
-
-Product signals include structured catalog design, search/filtering, validation, health monitoring, quality signals and a roadmap for scoring, community review and usage analytics.
-
-### [LaunchPad](https://github.com/Rrachet/LaunchPad) — Full-stack product platform
-
-A technical product case study showing how a product requirement becomes a working system: **user flow → frontend → REST API → business logic → relational data**.
-
-The repository is useful evidence of technical product judgment because architecture, authentication, integrations, configuration and trade-offs are documented alongside implementation.
-
-### [SupportHub](https://github.com/Rrachet/SupportHub) — Customer/problem workflow
-
-A service workflow product built around issue intake, categorisation, prioritisation, investigation, escalation, resolution and documentation.
-
-This demonstrates the customer-operations side of product thinking: understanding where users get blocked and designing workflows that make resolution measurable and repeatable.
-
-### [AI Enhancement Tool](https://github.com/Rrachet/AI-enhancement-tool) — AI product experimentation
-
-An AI application exploring provider abstraction, validation, fallback behaviour and quality scoring — with emphasis on making AI output useful and measurable rather than treating model output as the product by itself.
+- Clear domain boundaries
+- Workspace-level multi-tenancy
+- RLS-first data isolation
+- Provider abstractions
+- Server-side authorization
+- Deterministic demo behaviour
+- Typed application state
+- Regression testing before refactoring core flows
+- Real product workflows instead of placeholder UI
 
 ---
 
-## 🧠 How I think about products
+## 🤖 Zemo
+
+**Zemo is AIBOT's product-native copilot.**
+
+It is intentionally not a generic chatbot.
+
+Zemo understands:
+
+- the current page
+- what the page is for
+- the next useful action
+- contextual product tips
+- the current voice-preview state
+- safe navigation actions
+
+Its architecture is deliberately replaceable:
+
+```text
+ZemoInput → ZemoIntent → ZemoAction → AIBOT
+```
+
+The recognition layer is separated from application actions so a future LLM or voice input provider can be introduced without rebuilding the product.
+
+---
+
+## 🎙️ Voice
+
+AIBOT's demo voice architecture separates the conversation from how it is spoken:
+
+```text
+Conversation Engine
+       ↓
+Speech Provider
+       ↓
+Speech Plan
+       ↓
+Browser Voice
+```
+
+The demo supports:
+
+- English
+- Hindi
+- Hinglish
+- Six sales scenarios
+- Play / pause / resume / stop / replay
+- Capability-gated live voice preview
+
+There is **one conversation source of truth**. The voice layer does not create calls, leads, follow-ups or analytics records.
+
+---
+
+## 🛠️ Product + Technical Toolkit
+
+**Product:** Product discovery · PRDs · user journeys · requirements · prioritization · roadmaps · MVP definition · experimentation · KPI thinking · GTM
+
+**Analytics:** SQL · Python · Pandas · NumPy · funnel analysis · product metrics
+
+**Frontend:** React · Next.js · TypeScript · JavaScript · Vite · HTML/CSS
+
+**Backend:** Node.js · Express · REST APIs · PostgreSQL · Supabase · Prisma
+
+**AI:** LLM application architecture · conversation systems · prompt design · AI provider abstraction · speech interfaces
+
+**Cloud:** Vercel · Netlify · Azure · GitHub · CI/CD
+
+---
+
+## 📌 Selected Work
+
+| Project | Product signal | Technical signal |
+|---|---|---|
+| **AIBOT** | AI product development, workflow design, validation | Next.js + Supabase + PostgreSQL + RLS |
+| **APIAtlas** | Developer problem, trust and reliability | Next.js + validation + health checks |
+| **LaunchPad** | Requirements → system design | React + REST + PostgreSQL |
+| **SupportHub** | Customer operations and service workflows | Workflow/state modelling |
+| **AI Enhancement Tool** | AI experimentation and evaluation | Next.js + AI integrations |
+| **AirCanvas** | Real-time interaction and experimentation | Computer vision + FastAPI + WebSockets |
+
+---
+
+## 🧭 How I build
 
 ```text
 USER / BUSINESS PROBLEM
         ↓
-DISCOVERY + CONTEXT
+DISCOVERY
         ↓
 PROBLEM DEFINITION
         ↓
@@ -88,59 +155,37 @@ SUCCESS METRICS
         ↓
 OPTIONS + TRADE-OFFS
         ↓
-PRIORITIZE MVP
+MVP
         ↓
-BUILD WITH ENGINEERING
+ENGINEERING
         ↓
-SHIP + OBSERVE
+SHIP
         ↓
-LEARN FROM DATA / USERS
+OBSERVE
         ↓
 ITERATE
 ```
 
-For every substantial project, I try to make four things visible:
+For substantial projects, I try to make four things visible:
 
 **Why this problem?**  
 **Why this solution?**  
 **How do we know it worked?**  
-**What would we do next?**
+**What should we build next?**
 
 ---
 
-## 🛠️ Product + Technical Toolkit
+## 🎯 Current Direction
 
-**Product:** Product discovery · PRDs · user journeys · requirements · prioritization · roadmaps · MVP definition · experimentation · KPI/metric thinking · competitive analysis · GTM
+I'm moving from:
 
-**Analytics:** SQL · Python · Pandas · NumPy · data modelling · funnel analysis · product metrics
+> **"I can build software."**
 
-**Design / Collaboration:** Figma · Jira-style workflows · technical diagrams · structured product documentation
+toward:
 
-**Engineering:** JavaScript · TypeScript · Python · Java · React · Next.js · Vite · Node.js · Express · REST APIs
+> **"I can identify what should be built, explain why, work with engineering to build it, and measure whether it created value."**
 
-**Data / Cloud:** PostgreSQL · Supabase · Prisma · Azure · Vercel · Netlify · Render · GitHub · CI/CD
-
----
-
-## 📌 Portfolio map
-
-| Repository | Product signal | Technical signal |
-|---|---|---|
-| **ThriiLocal** | Product thinking, workflows, UX, validation | Frontend + product implementation |
-| **APIAtlas** | Developer problem, trust/reliability, roadmap | Next.js + validation + health checks |
-| **LaunchPad** | Requirements → system design | React + REST + PostgreSQL |
-| **SupportHub** | Customer operations + service workflow | Workflow/state modelling |
-| **AI Enhancement Tool** | AI feature evaluation + quality | Next.js + AI integrations |
-| **Loggin** | Access, roles and real-world workflows | Supabase + PostgreSQL + RLS |
-| **AirCanvas** | Interaction problem + experimentation | Computer vision + FastAPI + WebSockets |
-
----
-
-## 🚀 Current direction
-
-I am intentionally moving from **"I can build software"** toward **"I can identify what should be built, explain why, work with engineers to build it, and measure whether it created value."**
-
-My GitHub is therefore organized as a **product portfolio with technical proof**, not a collection of unrelated coding projects.
+My GitHub is becoming a portfolio of **real product systems with technical proof**.
 
 ### Target roles
 
