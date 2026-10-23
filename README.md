@@ -49,12 +49,8 @@ I aim to make engineering decisions visible: architecture, data boundaries, fail
 
 - [FrogStudio](https://github.com/Rrachet/FrogStudio) — agency website
 - [Heroes of Hyderabad](https://github.com/Rrachet/heroofhyderabad) — event and nominations site
-- [India Inclusive Summit](https://github.com/Rrachet/indiainclusivesummit) — summit website
+- [India Inclusive Summit](https://github.com/Rrachet/indiainclusivesummit) — summit website ([live](https://indiainclusivesummit.vercel.app))
 - [NudgedNation](https://github.com/Rrachet/NudgedNation) — interactive behavioural-science experience
-- [VisualWebsite](https://github.com/Rrachet/VisualWebsite)
-- [AppleProject](https://github.com/Rrachet/AppleProject)
-- [Gun2Gun](https://github.com/Rrachet/Gun2Gun)
-- [demo_web](https://github.com/Rrachet/demo_web)
 
 Some supporting repositories are private. The public list is a selection, not a claim that every experiment is production-ready.
 
